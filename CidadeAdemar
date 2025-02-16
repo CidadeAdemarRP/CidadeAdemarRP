@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade Ademar RP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(90deg, #ff0000, #8b0000);
+            padding: 40px;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        img {
+            max-width: 250px;
+            border-radius: 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            margin: 20px;
+            background: linear-gradient(90deg, #ff4444, #cc0000);
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: linear-gradient(90deg, #cc0000, #990000);
+        }
+        .map-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .map-gallery img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+        }
+	#logo_Ademar{
+	    width: 20px;
+	    height: 20px;
+	    display: inline-block;
+	}
+	#SubTitulo_Cidade{
+		display:inline-block;
+	}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cidade Ademar RP</h1>
+    </header>
+    
+    <div class="container">
+        <!-- Logo da cidade -->
+        <img src="./imagens/Ademar_logo.png" alt="Logo da Cidade Ademar RP" id="logo_Ademar">
+        
+        <h2 id="SubTitulo_Cidade">Sobre a Cidade</h2>
+        <p><strong>Cidade Ademar RP</strong> é um mundo dinâmico, repleto de histórias e oportunidades. Aqui, você escolhe o caminho que deseja seguir, desde um policial até um homem da lei. É uma cidade totalmente voltada para o roleplay, onde você pode viver experiências imersivas, semelhantes à vida real. Em Cidade Ademar RP, há sempre a chance de encontrar grandes streamers e interagir com pessoas que compartilham a mesma paixão por um roleplay de qualidade. Se você procura um lugar para se jogar de cabeça e viver um roleplay realista, esse é o seu lugar!</p>
+        
+        <h2>Nosso Mapa</h2>
+        <div class="map-gallery">
+            <!-- Imagens do mapa -->
+            <img src="./imagens/favela_Ademar.png" alt="Imagem do mapa 1">
+            <img src="./imagens/pcesp_ademar.png" alt="Imagem do mapa 2">
+        </div>
+        
+        <h2>Entre no nosso Discord</h2>
+        <a href="https://discord.gg/UzCZpJaDf3" class="btn">Acessar o Discord</a>
+        
+        <h2>Seja VIP</h2>
+        <p>Para se tornar VIP, abra um ticket no nosso servidor do discord, espere o staff te atender e será cobrado um valor de 20 reais que será gasto com a cidade.</p>
+        <p><strong>Chave Pix:</strong> 7d180613-d56c-4c24-ac2b-057e4e7c14a4</p>
+    </div>
+</body>
+</html>
